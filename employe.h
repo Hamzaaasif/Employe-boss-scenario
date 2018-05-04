@@ -12,7 +12,7 @@ class employe
     myoffice = o;
     cout << "Employe :: Employe()" << endl;
   }
-  ~ employe()
+  virtual ~ employe()
   {
     cout << "Employe :: ~ Employe()" << endl;
   }

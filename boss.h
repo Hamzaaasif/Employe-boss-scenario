@@ -11,7 +11,7 @@ class boss : public employe
     mypc.turn_on();
     cout << "Boss :: Boss()" <<endl;
   }
-  ~ boss ()
+   ~ boss ()
   {
     mypc.turn_off();
     cout << "Boss :: ~ Boss()" <<endl;
